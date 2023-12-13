@@ -32,6 +32,4 @@ jobs:
 
       - name: grant execute permissions
         run: |
-          cd divineegypt
-          chmod +x ./gradlew
           ./gradlew 
